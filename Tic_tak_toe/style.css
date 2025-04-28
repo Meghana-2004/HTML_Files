@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #548587;
+    text-align: center;
+}
+.container{
+    height: 70vh; /*   view port height(vh) */
+    /* this means the vh equals 1% of the viewpoet height and
+    we can say that , this is the height of the visible screen
+    and this unit adapts to the screen height */
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem ;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1); /*last one is opacity*/
+    font-size: 7vmin;
+    color: #b0413e;
+    background-color: #ffffa9;
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+}
